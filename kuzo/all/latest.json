@@ -1,0 +1,16 @@
+{
+  "version": "0.2.2",
+  "notes": "Kuzo 0.2.2 (trial - not approved under PRO-AIC-0608 C1). LMA zero advice on the scan card; a start or end distance not stored in the scan is read as 0.0 m and named; the R6 reason says where steps were not recorded; head 1215 scans accepted as raw on an exact match (LF and LMA provisional); the pause at the turn of one recording reported once; new older .slb line on the client report; Run checks greyed out with no pass open; header on one line from 1200 px. No limit changed.",
+  "pub_date": "2026-11-24T20:55:21Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUt0RmtFZ3ZYUkVQYkNvSUt6WUFObW1pbld5VlVQTEM1ampTNDloRzRKNzYrclF0dGxKYWFlMjREU3FMUys2S3NadGwzTEhFOUx3UnFtV3NuK1Y5VlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUyMDYxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjJfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjIKaEUxNlRGSGFlTlpydXlPZTJ5UU9ySGZEc28vQkd2WGp1VHlTblVRTkJWMTM4ek04ZTcwWGhmOHhQckg5OUZoem0rdlFKOEd6RXdCMEFGMGJrYzF1Q3c9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.2/Kuzo-Rope-Assessment_0.2.2_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUJpWnBBd0tsdzhlVkhRVjJKbGlya0tOWitjVlo2VTRGU3JWb3puNXNJakdpeXBabEgwSnlVeHk4djQwNWtVbm5vSkVTVHExaXFkaGoxZU44c3BncFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUyMTAxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yCnU4MTFYTlUvREhaT3Q4b3V2d2xyejF1KzJXRm5PYytyOEdCbGZKZHg1SU5OUGpzM0F4dVJ1NUQyQ2paeUN1c1ZjbXBlVitva0JEbTZNZEd3M1Q5MkJnPT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.2/Kuzo-Rope-Assessment_0.2.2_x64-setup.exe"
+    }
+  },
+  "withdrawn": []
+}
