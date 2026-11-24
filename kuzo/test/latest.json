@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "notes": "TEST ONLY - trial of the update option. Same program as 0.2.0; only the version number differs. Never for real work.",
+  "pub_date": "2026-11-24T17:11:45Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUk1zK1VlNUVIcmR5U2p3NFIwOTVSZ3hWd2dMS29paWF5bVBEU2tGOGtFS3N0aHF2OHRKc0FQcW8wa3NDQTFpSXc1RDZwOXRpS0ZQTzlSVXkwdG1RbW1uVzJWY0JXL2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQwMjkwCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjFfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjEKcVNqVlgzRldwYytmTGNJZ2pOWXJmN0xNdzN2VjdQQ1o4VkZGdUlHTkJ4djg4akgxSnhJQXdPUVlKLzB2SGlwV0pZUzBGK2ZHK2FKTURDaThWYk85QXc9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-test-0.2.1/Kuzo-Rope-Assessment_0.2.1_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUk1zK1VlNUVIcmNPZ1ZZM0xKUjlZaUhiY0dWNjA5cnc5b2xGbS9ZUTFVSFBMYjJiSXRnc2JEZDVUR3lKMit0WHZCZEUwYkE5TldGVDRxUVI4KzFIa2wzZkg0a28yNUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQwMjkxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xCklEVE85Uzg5YUVQOWVoekRPZ3ZWMGlSVzFZak1MZ29pTkp3MHlGc0tPVkc5NVB1aTJpSi9scUhIVzVXeDNGenkwbnNWdndvMTIzeUs3R001K293c0FBPT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-test-0.2.1/Kuzo-Rope-Assessment_0.2.1_x64-setup.exe"
+    }
+  },
+  "withdrawn": []
+}
