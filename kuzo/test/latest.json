@@ -1,7 +1,7 @@
 {
   "version": "0.2.1",
   "notes": "TEST ONLY - trial of the update option. Same program as 0.2.0; only the version number differs. Never for real work.",
-  "pub_date": "2026-11-24T18:10:02Z",
+  "pub_date": "2026-11-24T18:32:10Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUFnZjZxanFzVThoeFBPZFA4dmdscDNHNEJZejAwSEFSL2l3M2h6TG9FNUo4V21hSFI0UXFzS3J6SWJFSEFVU1VuY0FOVmt6S3IwMWxuU2FXQWNDZ3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQxMTUwCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjFfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjEKM3F0QUNKeGY5KzR5K2tIeG5ZdjFsckZibDFxdm9tcHhIKzBEWWRYMjZ3Qm94MlI4ZkM2anFuWWVlUDZHSnlRZHI0eGovdzRERS9lT1p2QVI2SnVpQ2c9PQo=",
@@ -12,10 +12,5 @@
       "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-test-0.2.1/Kuzo-Rope-Assessment_0.2.1_x64-setup.exe"
     }
   },
-  "withdrawn": [
-    {
-      "version": "0.2.0",
-      "reason": "TEST of the withdrawn banner on the test line - not a real withdrawal"
-    }
-  ]
+  "withdrawn": []
 }
