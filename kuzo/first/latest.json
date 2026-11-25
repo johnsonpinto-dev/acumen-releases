@@ -1,15 +1,15 @@
 {
-  "version": "0.2.5",
-  "notes": "Kuzo 0.2.5 (trial - not approved under PRO-AIC-0608 C1). Small fix for files recorded by other parties (Intron container version 3): every LF figure on such a file now says \"raw units - not mV, not comparable to WINTROS\" (no mV anywhere; figures unchanged); the explanation lines on its scan card are no longer red; closing after opening it view only no longer asks \"Not everything is saved\" for the program's own entry. Acumen's own recordings open and assess exactly as before. No limit changed.",
-  "pub_date": "2026-11-25T12:47:56Z",
+  "version": "0.2.6",
+  "notes": "Kuzo 0.2.6 (trial - not approved under PRO-AIC-0608 C1). Review levels: every point above an LF (mV) or LMA (%) level the engineer sets is listed on every pass, on any file, and playback stops at each - a review aid only, nothing on the report. Pass B can be lined up on pass A on screen; LMA and LF shown as pass A, pass B and both together, each with its own cursor reading. The engineer can change the LF counting threshold (preview, Apply with a reason, logged, shown on the report). LF counts on a pass whose LF is not matched to WINTROS no longer decide the result. LF at the very ends of a pass shows \"not available\", never 0.0.",
+  "pub_date": "2026-11-25T16:08:20Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUozK05GVUhjSnFnbjdyVit6cTRBaEozKzQ1NmE0elFDaUhDWlB6UFdYUkMzSUhqa1lmdXBBYlVVRWZ3bTNhUWx3alcvaHhKNWxCQi8vcVlEUG9nMFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjEwNTg4CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjVfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjUKZDdnZnRPOVM0SmlvRzhrbmVXczc0TUZlZGlXNUxYVzhJSVFaQVZSSWdzK3hEeUp4MTR1Z3BiNWl1Q1d4WGplbUhCWURaNmUwODVNZnEyVU4ydWM2QkE9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.5/Kuzo-Rope-Assessment_0.2.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU9YdFZmR2ZaUjNQS3dhZ3o1TjZhdmZYRkJGN1FzWVpmSnJMRTdDQUJGUEcxanVtemg0K1IxSlFPZllqNkRrdWdBV0JsZlhkT3dwSzZuay9XcEtpR1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIyNTg2CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjZfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjYKdVJFaEluVVBJRGdEZXpIbEo3T3lxMUxFQ3hEeGJpbk1qdWxpeWNjTTVhY3ZvNGdpVU93a0F0UURtTkFQYzREc1NsWC9CVkQrNEhwUzJBWVRkbHpzQXc9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.6/Kuzo-Rope-Assessment_0.2.6_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU1YdTl5SjE0K2RveENhQmVkOHEvU1lBR1E3aVVvY3dLREo2cnhQYm9PVDYrMUFKcncrTWZ0T3BsTkVSeis5MjF3K1FGOE9ZajM2K0s5RWRzMkIxZ3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjEwNjEzCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi41CkpEWnY4NHlqeUh0bUtCTk16cUxvbm9MOHNtK252YzVRNFhSZHFBVUEvZkFmcHFKU1ZNaG5mT2dtOTFRY0dsR2NYa29QMzRobzY3eDZYRDliQ0pEaEFRPT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.5/Kuzo-Rope-Assessment_0.2.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUR4YUdxUVVGS285YXI1c01kbHRQMVFTdVpYdy9nVDA1SzUraGZ6WFN2WmcwaStHRUtmUGcwaGxlbDN0NzFISC96QVROeWQwc3VCTXBrZ0RtMHQ2b2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIyNjE1CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi42Ckc2N01YTzJtYTQ2TGtPaFYzQnJzNi94RlFUMDFIUnZLV1FyNS9pYjRnUHRvUUVGczc2NUJHYkNPWjVNTjRIMmcwVmNQc0NRQXVhc1VaM0c4d2JVSEJ3PT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.6/Kuzo-Rope-Assessment_0.2.6_x64-setup.exe"
     }
   },
   "withdrawn": []
