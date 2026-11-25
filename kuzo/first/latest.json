@@ -1,15 +1,15 @@
 {
-  "version": "0.2.2",
-  "notes": "Kuzo 0.2.2 (trial - not approved under PRO-AIC-0608 C1). LMA zero advice on the scan card; a start or end distance not stored in the scan is read as 0.0 m and named; the R6 reason says where steps were not recorded; head 1215 scans accepted as raw on an exact match (LF and LMA provisional); the pause at the turn of one recording reported once; new older .slb line on the client report; Run checks greyed out with no pass open; header on one line from 1200 px. No limit changed.",
-  "pub_date": "2026-11-24T20:32:15Z",
+  "version": "0.2.3",
+  "notes": "Kuzo 0.2.3 (trial - not approved under PRO-AIC-0608 C1). Kuzo now saves the rope record as soon as a pass has finished opening, and saves before it closes (close button, Alt+F4, Cmd+W, Cmd+Q); if something cannot be saved it asks instead of closing. No limit, result or report wording changed.",
+  "pub_date": "2026-11-25T06:08:16Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUt0RmtFZ3ZYUkVQYkNvSUt6WUFObW1pbld5VlVQTEM1ampTNDloRzRKNzYrclF0dGxKYWFlMjREU3FMUys2S3NadGwzTEhFOUx3UnFtV3NuK1Y5VlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUyMDYxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjJfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjIKaEUxNlRGSGFlTlpydXlPZTJ5UU9ySGZEc28vQkd2WGp1VHlTblVRTkJWMTM4ek04ZTcwWGhmOHhQckg5OUZoem0rdlFKOEd6RXdCMEFGMGJrYzF1Q3c9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.2/Kuzo-Rope-Assessment_0.2.2_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU5JK2tNdURzNGdBR2JORTh3SzM0cVE3T3lqeWFyRVlWdUJmV1E4TXcrZUdjR2Z0bU9SZ25pTStDNEU5SStla3BVVWE0SEdNdXgycDAyNWRqc29DaWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg2MTkxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjNfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjMKWmlSOXA0ZmtXUnZ2ZFFkR2NSVFdxYzJtS1ZvcHlGcUFzV1YyVnFwMEMxa3REd050Z3hlTjkwc3h5SXlRVEg4b3RWelNmb0p3ZnEwZHZyQmwwdEhIQ3c9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.3/Kuzo-Rope-Assessment_0.2.3_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUJpWnBBd0tsdzhlVkhRVjJKbGlya0tOWitjVlo2VTRGU3JWb3puNXNJakdpeXBabEgwSnlVeHk4djQwNWtVbm5vSkVTVHExaXFkaGoxZU44c3BncFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUyMTAxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yCnU4MTFYTlUvREhaT3Q4b3V2d2xyejF1KzJXRm5PYytyOEdCbGZKZHg1SU5OUGpzM0F4dVJ1NUQyQ2paeUN1c1ZjbXBlVitva0JEbTZNZEd3M1Q5MkJnPT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.2/Kuzo-Rope-Assessment_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUkydlJMZ0JHbi9nR2FVQjJSbGdsQnEvNCtjbEFINlJNT1JEYWxUS1RpQWFjcURoL1FkRGdNVnNpWWp2Y2dhMUdvbTk3WDRsWHdXb2dZQ1E2ODBac1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg2MjM0CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4zCkszcFp3Q2R6Q0JmenR6TnNtNGJnUHd5MXE0NFZ1UG5WTEVteTNTTHVBcG53SEl5a0NpYnRDOWxNeGRxNU80SUpxNWFRQnMrNHkzbEdHaUdCNkNxSUN3PT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.3/Kuzo-Rope-Assessment_0.2.3_x64-setup.exe"
     }
   },
   "withdrawn": []
