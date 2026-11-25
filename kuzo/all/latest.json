@@ -1,15 +1,15 @@
 {
-  "version": "0.2.3",
-  "notes": "Kuzo 0.2.3 (trial - not approved under PRO-AIC-0608 C1). Kuzo now saves the rope record as soon as a pass has finished opening, and saves before it closes (close button, Alt+F4, Cmd+W, Cmd+Q); if something cannot be saved it asks instead of closing. No limit, result or report wording changed.",
-  "pub_date": "2026-11-25T06:35:35Z",
+  "version": "0.2.5",
+  "notes": "Kuzo 0.2.5 (trial - not approved under PRO-AIC-0608 C1). Small fix for files recorded by other parties (Intron container version 3): every LF figure on such a file now says \"raw units - not mV, not comparable to WINTROS\" (no mV anywhere; figures unchanged); the explanation lines on its scan card are no longer red; closing after opening it view only no longer asks \"Not everything is saved\" for the program's own entry. Acumen's own recordings open and assess exactly as before. No limit changed.",
+  "pub_date": "2026-11-25T13:13:12Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU5JK2tNdURzNGdBR2JORTh3SzM0cVE3T3lqeWFyRVlWdUJmV1E4TXcrZUdjR2Z0bU9SZ25pTStDNEU5SStla3BVVWE0SEdNdXgycDAyNWRqc29DaWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg2MTkxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjNfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjMKWmlSOXA0ZmtXUnZ2ZFFkR2NSVFdxYzJtS1ZvcHlGcUFzV1YyVnFwMEMxa3REd050Z3hlTjkwc3h5SXlRVEg4b3RWelNmb0p3ZnEwZHZyQmwwdEhIQ3c9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.3/Kuzo-Rope-Assessment_0.2.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUozK05GVUhjSnFnbjdyVit6cTRBaEozKzQ1NmE0elFDaUhDWlB6UFdYUkMzSUhqa1lmdXBBYlVVRWZ3bTNhUWx3alcvaHhKNWxCQi8vcVlEUG9nMFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjEwNTg4CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjVfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjUKZDdnZnRPOVM0SmlvRzhrbmVXczc0TUZlZGlXNUxYVzhJSVFaQVZSSWdzK3hEeUp4MTR1Z3BiNWl1Q1d4WGplbUhCWURaNmUwODVNZnEyVU4ydWM2QkE9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.5/Kuzo-Rope-Assessment_0.2.5_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUkydlJMZ0JHbi9nR2FVQjJSbGdsQnEvNCtjbEFINlJNT1JEYWxUS1RpQWFjcURoL1FkRGdNVnNpWWp2Y2dhMUdvbTk3WDRsWHdXb2dZQ1E2ODBac1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg2MjM0CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4zCkszcFp3Q2R6Q0JmenR6TnNtNGJnUHd5MXE0NFZ1UG5WTEVteTNTTHVBcG53SEl5a0NpYnRDOWxNeGRxNU80SUpxNWFRQnMrNHkzbEdHaUdCNkNxSUN3PT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.3/Kuzo-Rope-Assessment_0.2.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU1YdTl5SjE0K2RveENhQmVkOHEvU1lBR1E3aVVvY3dLREo2cnhQYm9PVDYrMUFKcncrTWZ0T3BsTkVSeis5MjF3K1FGOE9ZajM2K0s5RWRzMkIxZ3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjEwNjEzCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi41CkpEWnY4NHlqeUh0bUtCTk16cUxvbm9MOHNtK252YzVRNFhSZHFBVUEvZkFmcHFKU1ZNaG5mT2dtOTFRY0dsR2NYa29QMzRobzY3eDZYRDliQ0pEaEFRPT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.5/Kuzo-Rope-Assessment_0.2.5_x64-setup.exe"
     }
   },
   "withdrawn": []
