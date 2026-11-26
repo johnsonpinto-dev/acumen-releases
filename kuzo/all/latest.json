@@ -1,15 +1,15 @@
 {
-  "version": "0.2.7",
-  "notes": "Kuzo 0.2.7 (trial - not approved under PRO-AIC-0608 C1). Pass B recorded the other way is turned round automatically (said on screen, one click shows it as recorded, logged). A tick reverses the recorded direction for the whole set-up (reason and note, logged, not on the report). Return-pass LF is now read as WINTROS reads it, so the two passes' LF waves sit on top of each other (heads MH 6-26 and MH 22-45 matched). \"Align passes\" lines pass B up on pass A along the whole rope by itself, shows the match section by section and flags every stretch where the passes differ - display and review aid only. NOT RAW is no longer printed on the client report.",
-  "pub_date": "2026-11-25T19:07:19Z",
+  "version": "0.2.8",
+  "notes": "Kuzo 0.2.8 (trial - not approved under PRO-AIC-0608 C1). LMA on recorder files (.slb2) is now read with the recorder LMA correction, as the recorder and WINTROS apply it: Kuzo's LMA equals the recorder's stored figures and is within about 0.02 points of WINTROS. LMA levels move by up to about 3 points on some heads; every LMA figure, the zero advice and the checks follow. Shown on the scan card and in the log, not on the client report. Older .slb and container v3 files are unchanged.",
+  "pub_date": "2026-11-26T04:23:05Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUJYckdkNkQrN0pwWHZYWlFKdUVuTEJCWlh1UjQrQ1ZnRjZ5dGpha2hNM1AwMnRwT0tpQ0JPZEJOK0d3YkFNRHZwd0sxeFJ2MTN5eGt2SklUWU9UUXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjMyNDAwCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjdfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjcKcjBidW5JSUU2RnordzRIVVBGSEJLKzFtSnR6RlFTeTdxSjQ5Nmh5Mk1PTTBRemdqeHJTcjZhcWNMcEdNdDkzOU0zOHdEL1JqTHE4bjZYWTlWOWMvQUE9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.7/Kuzo-Rope-Assessment_0.2.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU1SdnR0b3QrSWxRaEhoV3VOUXZEQ1FscUxMOFlFNjRYOWJhNE9aYTlUUkkxVXNVZll6SlhENjhJVlRIS0h1UjNIZkxvOWtsWUU0UTdjVlpEU2ZId0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYzNDEyCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjhfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjgKekVLWmM5YTlWekZGN2psTlE4NE1vdzRiYUhUeEJORmVHZDNqaFJJWTNNTU1wMnNqakZXZW5TVEM4NnBqZVJJa3hRWFZ3R1B2bmpCVURIK2JoZ0c3QUE9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.8/Kuzo-Rope-Assessment_0.2.8_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUhpWU1ZVGxaTU0wV0M0M0dPN3FmdEc3THo5VTZNRVdlRk5leVREWXEyc3l6UXdULzl4NGRaWkdRL2JKNkxrM2xGQ0xmQWVLaUU1QXlaUllTMTk3SlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjMyNDY0CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi43CmRESmNJMndkTVlKT1JBcit5a25lY0RGRmRHTGxNeFFTMFlCZ1JlQnBFNzNVY3dDbGtGejlaL2JhS29wN2JzR2t6c2szNjVWVE9KclhOQXhkbHFrVkN3PT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.7/Kuzo-Rope-Assessment_0.2.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUhuY09lVEQ3R1dLMi9tVWhLTkRFbmtWK21FZVRJeGl1WE45a3JieGFxaGFmU20xUHhrZ3pWd3RtZ2hpZ2RLU3FlamxqRVA2aGRvRHo5em1EM3kyNGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYzNDM1CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi44Ckl2WFhJRWtMMDVCWG44UkMxWFBOeDY2SGpZbVY4NGFaRXRiNDlwekdmM2NFMzhGT29BWUozeUlWaXNPN3N4a09PQmdHUzJydXFaS0VMVzVUU3dWWUJBPT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.8/Kuzo-Rope-Assessment_0.2.8_x64-setup.exe"
     }
   },
   "withdrawn": []
