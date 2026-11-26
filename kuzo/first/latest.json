@@ -1,15 +1,15 @@
 {
-  "version": "0.2.9",
-  "notes": "Kuzo 0.2.9 (trial - not approved under PRO-AIC-0608 C1). New: \"Connect multiple SLB files\" - one rope recorded in several files, linked as sections in rope order, each gap entered as measured or estimated, a section can be flipped, overlap counted once, every section read against the rope's original calibration zero (an LMA step at a join is flagged and no result is proposed until you judge it), playback stops at each length not inspected, pass B reuses pass A's gaps. Older .slb: positions from 0 as WINTROS shows them, and a \"Turn pass B round\" switch set by you. Single-file .slb2 ropes are assessed as before.",
-  "pub_date": "2026-11-26T09:28:49Z",
+  "version": "0.2.10",
+  "notes": "Kuzo 0.2.10 (trial - not approved under PRO-AIC-0608 C1). New: LF route 4 - clean section, no calibration wire (the LF setting on the unit - read from the file, or typed for an older .slb - is the counting threshold; Kuzo's own clean-section peak is shown beside it as a check; you check each LF pulse yes / no / corrected count and approve before the draft report; nothing of route 4 on the client report). Pass checks: Align searches the whole rope first; for each stretch Align flags you give the cause and what governs; where pass A and pass B LMA levels differ by more than the head's stated precision the stretch is highlighted and your call is needed before the draft report. Report end trim. Rope Record advisory lines (breaking force, construction note). Routes 1-3 assessed as before.",
+  "pub_date": "2026-11-26T13:15:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUxCaFVab1RVZ1hTYVA4WGM4djhibDhSOSswSnFVSHhZR1p5VmI2RDZxMzJhUnhUdHZhLy9OR2R1ZmlEV0dHNk4xYkpIQWxaQS8ycVR6NE9HdldnN3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1MTQxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjlfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjkKOGxtQzUxR29CeWdRb2R1R0gzTXZzN3FTcDRmcWlZTmJqQVhmSjRXeGR5Ry9lUVhWVWtCMTVjMzBmdElmVkVPc01XbUd4enB0NmFBMFdyYkU1NTBQREE9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.9/Kuzo-Rope-Assessment_0.2.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU13VDVpUURBK2VnbzdydlJ3ZnFEYloySzh2bDFMU0Ntd2dYNWtUVE5iaktoNXhwT3poYjVSM0pBOHdxWkFJZXpCVE5XR1IvMzdvWlArTk02dmZlN0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njk4NzkxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjEwX2FhcmNoNjQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xMAp0UFVDcXRnYlVPL0h1cTRob3NMcGVVRFBTV2lnV256TkxVRUVPYkxQaUhhSCtHa2trL3JCaUx4cGl0dDdCcGZBRVpDYmxmNDd1VjNleWJ5eGR5ZE5Ddz09Cg==",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.10/Kuzo-Rope-Assessment_0.2.10_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUlaVTYxNHdRaWVHUzBPTnVEM014Qy9QanB5dGNFUUc0dU9PM2VJb291QmtPYjNVUXM2a1g2UWhnWnA3bzNrUmxTRFpkM3prVDExYkJrNlVFZmtBS3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1MTUyCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi45CnBXZFk5RmxvTkp6TXVNa2tCTVJSenBLakJRN25KeHJLN25jMFNhcm90WndPZGlDZUovWmdYNWhrd1dQM3MxQXd1dzYyS1lRMDZIeEJNcTVSOVdmU0JRPT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.9/Kuzo-Rope-Assessment_0.2.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUURIdk1rRlBiNnQ0UjZxbDY4OWNRUkJ0SHVBS3IzVWdNS3IwUkRwUXFQRjVVL0dxQzRjNkN1RHFBeTJuMHkxakEwSitkTmR1QTlaekxjSFhpOU5mM0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njk4ODAxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMTAKajlyd2ZUS3BNUTZkeFMyNjdqZG9oS05ubWwzd0UyL1pJalBFdUFiU1JyRWFIN3FvSDF4ekJWZFpKbS92RGNUZWV2bi8rTlpOMmxEVytWay92NXMxQVE9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.10/Kuzo-Rope-Assessment_0.2.10_x64-setup.exe"
     }
   },
   "withdrawn": []
