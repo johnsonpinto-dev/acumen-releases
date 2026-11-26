@@ -1,15 +1,15 @@
 {
-  "version": "0.2.11",
-  "notes": "Kuzo 0.2.11 (trial - not approved under PRO-AIC-0608 C1). New: speed - checks run apart from the screen with a progress line; pass A / B switch without re-running; heat view answers. Linked ropes: a section may keep its own calibration and LF figure (reason logged). Join ends: a cause at every join; stretches not covered by the other file printed \"not assessed\"; pulses near a join highlighted. Route-4 pulse check by outcome (discarding rope: the deciding windows; passing rope: every pulse). Align shows the near result first. Import a Rope Record site record (file or QR). Crash / freeze reports saved on the laptop, sent only on your yes. README + terms at first start - wording still a DRAFT, to be replaced by the approved text. Counts and results on every held scan identical to 0.2.10.",
-  "pub_date": "2026-11-26T17:48:52Z",
+  "version": "0.2.12",
+  "notes": "Kuzo 0.2.12 (trial - not approved under PRO-AIC-0608 C1). Screen only: the indication box clears when the passes change; one readout line per pass above the head (LF, LMA, markers) - labels no longer overlap; Play says when the recording ends and starts again; Play backward and Play forward (Shift+arrows); display-only LMA shift to lay pass A and B on one line (logged, never used by checks or the report); Run checks names an empty diameter or head; \"line-up shift\" wording; examined length explained, another count compared with a reason; turn pass B round says when the traces do not settle it. Checks, counts, results and the report unchanged from 0.2.11.",
+  "pub_date": "2026-11-26T21:10:56Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUdaalZya2FlSXYzeEIvVE14eVhkeTZPUXFTUklWckdqeWlCcG9KaG9FR013c2xYaGpQTHQxL2o4aTBhZG9Vck9FWHQ1WTVrbXRIbGJDbVZGM1RrTUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzE0ODg5CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjExX2FhcmNoNjQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xMQpiRGFPRHN1VTRQNVRrNlVkWHhJNlJucDV0MkJwNjdhUkdVaTgrM1VmeWlxZkhGUUhPOXBqeWFUbFFKSnhTcUxSZENvNi9nYWIvYjdzbEI2UjVUY0JCUT09Cg==",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.11/Kuzo-Rope-Assessment_0.2.11_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUFCbnluTzZJTFpaREdMZHhXY2N4Q2tVYVRQNXR4aXMwWFdTZUNZVHp5dWtoRUpoRWRvc20wdTc3NlJvR0NhbEE5ZWw3ZG1YL0c3ODV0TG5yVUhNR1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzI3MzI0CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjEyX2FhcmNoNjQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xMgpkZWp4c0tTMzlqQ01uaG44RisyeWJCODQ4U091TXE0YkdKYlZHa3FCdVY5WnVpaC9ZKzlBYkdsNWg1elZXaWdyeHBqRFNIR0tQWWRMU25FZ1FXQ1RBQT09Cg==",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.12/Kuzo-Rope-Assessment_0.2.12_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUxodFFOaWdENDlaUGdTaVNrNitwK0tEOEJFR0NTeHRIbEdMN0lITDFYS1B3UGx3Vmx6enhHSXlZKzAxVlppcHNtckovMUkybVBHcWUyMlpBQzcwNlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzE0ODk3CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMTEKMjBUK2RzandDMDJWNU0zdzFrVnltc2dLRm0xbjhJSmpPQkx3OUZXYk9zamJ1T1VKOFhYS0ZOSTRSMVdjNzhUcU1MajFMSjAwZHdjSlJ3ZUlVc3dwRGc9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.11/Kuzo-Rope-Assessment_0.2.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUlKZ0IwbVVsL1NSMW45UklIcUxSUlBBdVZTU040ZDN3NnQ4K0IvUVkvU0lKemdDeUxZUXMvdWluTkJyVjUrbmZrZ0p0d2J5MVM5WWloZG42cER4QndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzI3MzMzCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjEyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMTIKTlNXL3hwSXQrcG9QazRJTS9oVjJaelV4TGp4ZFU0eVQ0ZTZKaXd0OXhndmFvMHdwWXZRcEJneE5sSXBHWkZ0RFFhczJnc0ZUSDhGS3hwbWxKdHdOQ1E9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.12/Kuzo-Rope-Assessment_0.2.12_x64-setup.exe"
     }
   },
   "withdrawn": []
