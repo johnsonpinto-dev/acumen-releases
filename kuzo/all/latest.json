@@ -1,15 +1,15 @@
 {
-  "version": "0.2.8",
-  "notes": "Kuzo 0.2.8 (trial - not approved under PRO-AIC-0608 C1). LMA on recorder files (.slb2) is now read with the recorder LMA correction, as the recorder and WINTROS apply it: Kuzo's LMA equals the recorder's stored figures and is within about 0.02 points of WINTROS. LMA levels move by up to about 3 points on some heads; every LMA figure, the zero advice and the checks follow. Shown on the scan card and in the log, not on the client report. Older .slb and container v3 files are unchanged.",
-  "pub_date": "2026-11-26T04:23:05Z",
+  "version": "0.2.9",
+  "notes": "Kuzo 0.2.9 (trial - not approved under PRO-AIC-0608 C1). New: \"Connect multiple SLB files\" - one rope recorded in several files, linked as sections in rope order, each gap entered as measured or estimated, a section can be flipped, overlap counted once, every section read against the rope's original calibration zero (an LMA step at a join is flagged and no result is proposed until you judge it), playback stops at each length not inspected, pass B reuses pass A's gaps. Older .slb: positions from 0 as WINTROS shows them, and a \"Turn pass B round\" switch set by you. Single-file .slb2 ropes are assessed as before.",
+  "pub_date": "2026-11-26T09:40:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUU1SdnR0b3QrSWxRaEhoV3VOUXZEQ1FscUxMOFlFNjRYOWJhNE9aYTlUUkkxVXNVZll6SlhENjhJVlRIS0h1UjNIZkxvOWtsWUU0UTdjVlpEU2ZId0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYzNDEyCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjhfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjgKekVLWmM5YTlWekZGN2psTlE4NE1vdzRiYUhUeEJORmVHZDNqaFJJWTNNTU1wMnNqakZXZW5TVEM4NnBqZVJJa3hRWFZ3R1B2bmpCVURIK2JoZ0c3QUE9PQo=",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.8/Kuzo-Rope-Assessment_0.2.8_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUxCaFVab1RVZ1hTYVA4WGM4djhibDhSOSswSnFVSHhZR1p5VmI2RDZxMzJhUnhUdHZhLy9OR2R1ZmlEV0dHNk4xYkpIQWxaQS8ycVR6NE9HdldnN3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1MTQxCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjlfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjkKOGxtQzUxR29CeWdRb2R1R0gzTXZzN3FTcDRmcWlZTmJqQVhmSjRXeGR5Ry9lUVhWVWtCMTVjMzBmdElmVkVPc01XbUd4enB0NmFBMFdyYkU1NTBQREE9PQo=",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.9/Kuzo-Rope-Assessment_0.2.9_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUhuY09lVEQ3R1dLMi9tVWhLTkRFbmtWK21FZVRJeGl1WE45a3JieGFxaGFmU20xUHhrZ3pWd3RtZ2hpZ2RLU3FlamxqRVA2aGRvRHo5em1EM3kyNGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYzNDM1CWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi44Ckl2WFhJRWtMMDVCWG44UkMxWFBOeDY2SGpZbVY4NGFaRXRiNDlwekdmM2NFMzhGT29BWUozeUlWaXNPN3N4a09PQmdHUzJydXFaS0VMVzVUU3dWWUJBPT0K",
-      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.8/Kuzo-Rope-Assessment_0.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3NIOW1LNFVXUUlaVTYxNHdRaWVHUzBPTnVEM014Qy9QanB5dGNFUUc0dU9PM2VJb291QmtPYjNVUXM2a1g2UWhnWnA3bzNrUmxTRFpkM3prVDExYkJrNlVFZmtBS3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1MTUyCWZpbGU6S3V6by1Sb3BlLUFzc2Vzc21lbnRfMC4yLjlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi45CnBXZFk5RmxvTkp6TXVNa2tCTVJSenBLakJRN25KeHJLN25jMFNhcm90WndPZGlDZUovWmdYNWhrd1dQM3MxQXd1dzYyS1lRMDZIeEJNcTVSOVdmU0JRPT0K",
+      "url": "https://github.com/johnsonpinto-dev/acumen-releases/releases/download/kuzo-0.2.9/Kuzo-Rope-Assessment_0.2.9_x64-setup.exe"
     }
   },
   "withdrawn": []
